@@ -10,7 +10,8 @@ config_version=4
 
 [application]
 
-config/name="escenas_animacion"
+config/name="sprite_animation"
+run/main_scene="res://scenes/characters/Player.tscn"
 config/icon="res://icon.png"
 
 [gui]
@@ -24,4 +25,6 @@ common/enable_pause_aware_picking=true
 [rendering]
 
 quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
 environment/default_environment="res://default_env.tres"
