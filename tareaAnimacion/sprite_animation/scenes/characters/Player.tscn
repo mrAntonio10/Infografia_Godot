@@ -1,79 +1,11 @@
-[gd_scene load_steps=80 format=2]
+[gd_scene load_steps=33 format=2]
 
-[ext_resource path="res://assets/sprites/player/Idle (1).png" type="Texture" id=1]
-[ext_resource path="res://assets/sprites/player/Attack (2).png" type="Texture" id=2]
-[ext_resource path="res://assets/sprites/player/Attack (1).png" type="Texture" id=3]
-[ext_resource path="res://assets/sprites/player/Attack (5).png" type="Texture" id=4]
-[ext_resource path="res://assets/sprites/player/Attack (6).png" type="Texture" id=5]
-[ext_resource path="res://assets/sprites/player/Attack (9).png" type="Texture" id=6]
-[ext_resource path="res://assets/sprites/player/Attack (7).png" type="Texture" id=7]
-[ext_resource path="res://assets/sprites/player/Attack (8).png" type="Texture" id=8]
-[ext_resource path="res://assets/sprites/player/Attack (4).png" type="Texture" id=9]
-[ext_resource path="res://assets/sprites/player/Attack (10).png" type="Texture" id=10]
-[ext_resource path="res://assets/sprites/player/Attack (3).png" type="Texture" id=11]
-[ext_resource path="res://assets/sprites/player/Dead (2).png" type="Texture" id=12]
-[ext_resource path="res://assets/sprites/player/Dead (1).png" type="Texture" id=13]
-[ext_resource path="res://assets/sprites/player/Dead (7).png" type="Texture" id=14]
-[ext_resource path="res://assets/sprites/player/Dead (5).png" type="Texture" id=15]
-[ext_resource path="res://assets/sprites/player/Dead (4).png" type="Texture" id=16]
-[ext_resource path="res://assets/sprites/player/Dead (6).png" type="Texture" id=17]
-[ext_resource path="res://assets/sprites/player/Dead (8).png" type="Texture" id=18]
-[ext_resource path="res://assets/sprites/player/Dead (9).png" type="Texture" id=19]
-[ext_resource path="res://assets/sprites/player/Dead (3).png" type="Texture" id=20]
-[ext_resource path="res://assets/sprites/player/Dead (10).png" type="Texture" id=21]
-[ext_resource path="res://assets/sprites/player/Idle (6).png" type="Texture" id=22]
-[ext_resource path="res://assets/sprites/player/Idle (5).png" type="Texture" id=23]
-[ext_resource path="res://assets/sprites/player/Idle (7).png" type="Texture" id=24]
-[ext_resource path="res://assets/sprites/player/Idle (3).png" type="Texture" id=25]
-[ext_resource path="res://assets/sprites/player/Idle (10).png" type="Texture" id=26]
-[ext_resource path="res://assets/sprites/player/Idle (9).png" type="Texture" id=27]
-[ext_resource path="res://assets/sprites/player/Idle (2).png" type="Texture" id=28]
-[ext_resource path="res://assets/sprites/player/Idle (8).png" type="Texture" id=29]
-[ext_resource path="res://assets/sprites/player/Idle (4).png" type="Texture" id=30]
-[ext_resource path="res://assets/sprites/player/Jump (4).png" type="Texture" id=31]
-[ext_resource path="res://assets/sprites/player/Jump (5).png" type="Texture" id=32]
-[ext_resource path="res://assets/sprites/player/Jump (2).png" type="Texture" id=33]
-[ext_resource path="res://assets/sprites/player/Jump (1).png" type="Texture" id=34]
-[ext_resource path="res://assets/sprites/player/Jump (6).png" type="Texture" id=35]
-[ext_resource path="res://assets/sprites/player/Jump (7).png" type="Texture" id=36]
-[ext_resource path="res://assets/sprites/player/Jump (3).png" type="Texture" id=37]
-[ext_resource path="res://assets/sprites/player/JumpAttack (7).png" type="Texture" id=38]
-[ext_resource path="res://assets/sprites/player/JumpAttack (5).png" type="Texture" id=39]
-[ext_resource path="res://assets/sprites/player/JumpAttack (10).png" type="Texture" id=40]
-[ext_resource path="res://assets/sprites/player/Jump (8).png" type="Texture" id=41]
-[ext_resource path="res://assets/sprites/player/JumpAttack (4).png" type="Texture" id=42]
-[ext_resource path="res://assets/sprites/player/JumpAttack (9).png" type="Texture" id=43]
-[ext_resource path="res://assets/sprites/player/JumpAttack (1).png" type="Texture" id=44]
-[ext_resource path="res://assets/sprites/player/Jump (9).png" type="Texture" id=45]
-[ext_resource path="res://assets/sprites/player/Jump (10).png" type="Texture" id=46]
-[ext_resource path="res://assets/sprites/player/JumpAttack (2).png" type="Texture" id=47]
-[ext_resource path="res://assets/sprites/player/JumpAttack (3).png" type="Texture" id=48]
-[ext_resource path="res://assets/sprites/player/JumpAttack (8).png" type="Texture" id=49]
-[ext_resource path="res://assets/sprites/player/JumpAttack (6).png" type="Texture" id=50]
-[ext_resource path="res://assets/sprites/player/Run (2).png" type="Texture" id=51]
-[ext_resource path="res://assets/sprites/player/Run (4).png" type="Texture" id=52]
-[ext_resource path="res://assets/sprites/player/Run (3).png" type="Texture" id=53]
-[ext_resource path="res://assets/sprites/player/Run (1).png" type="Texture" id=54]
-[ext_resource path="res://assets/sprites/player/Run (6).png" type="Texture" id=55]
-[ext_resource path="res://assets/sprites/player/Run (8).png" type="Texture" id=56]
-[ext_resource path="res://assets/sprites/player/Run (5).png" type="Texture" id=57]
-[ext_resource path="res://assets/sprites/player/Run (9).png" type="Texture" id=58]
-[ext_resource path="res://assets/sprites/player/Run (7).png" type="Texture" id=59]
-[ext_resource path="res://assets/sprites/player/Run (10).png" type="Texture" id=60]
-[ext_resource path="res://assets/sprites/player/Walk (2).png" type="Texture" id=61]
-[ext_resource path="res://assets/sprites/player/Walk (3).png" type="Texture" id=62]
-[ext_resource path="res://assets/sprites/player/Walk (7).png" type="Texture" id=63]
-[ext_resource path="res://assets/sprites/player/Walk (9).png" type="Texture" id=64]
-[ext_resource path="res://assets/sprites/player/Walk (1).png" type="Texture" id=65]
-[ext_resource path="res://assets/sprites/player/Walk (6).png" type="Texture" id=66]
-[ext_resource path="res://assets/sprites/player/Walk (8).png" type="Texture" id=67]
-[ext_resource path="res://assets/sprites/player/Walk (10).png" type="Texture" id=68]
-[ext_resource path="res://assets/sprites/player/Walk (5).png" type="Texture" id=69]
-[ext_resource path="res://assets/sprites/player/Walk (4).png" type="Texture" id=70]
+[ext_resource path="res://scenes/characters/Player.gd" type="Script" id=2]
+[ext_resource path="res://assets/sprites/player/JumpAttack (1).png" type="Texture" id=15]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 36.0
-height = 48.0
+radius = 160.0
+height = 280.0
 
 [sub_resource type="Animation" id=2]
 length = 0.001
@@ -87,7 +19,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 0,
-"values": [ ExtResource( 1 ) ]
+"values": [ null ]
 }
 tracks/1/type = "value"
 tracks/1/path = NodePath("Sprite:texture:load_path")
@@ -138,146 +70,214 @@ tracks/4/keys = {
 "values": [ 0.0 ]
 }
 
+[sub_resource type="Animation" id=4]
+resource_name = "player_attack"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture:load_path")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ "res://.import/Attack (1).png-cb1993b385e41d386609f4eb99cfb992.stex", "res://.import/Attack (2).png-c411952b4f71674446d913920c3d49b1.stex", "res://.import/Attack (3).png-ce08e6121c1c1b0b9ad1e5dad569c7ec.stex", "res://.import/Attack (4).png-387fec03d7364a70353cffbd63311a76.stex", "res://.import/Attack (5).png-85832a320309691bf7008b7cb1aa1ce9.stex", "res://.import/Attack (6).png-03c928fe05f10e2d86af15ffd059bfee.stex", "res://.import/Attack (7).png-05bb4938498f4a910956277090929746.stex", "res://.import/Attack (8).png-3710335d8ae28db7e4ab3032a89ec15f.stex", "res://.import/Attack (9).png-a0ab40d1d98dfbd3dfb38bf592cdc88b.stex", "res://.import/Attack (10).png-57e92eb889bf24080ee621ab50409251.stex" ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "player_death"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture:load_path")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ "res://.import/Dead (1).png-cd7808748e72b5f7e73659eb0f188413.stex", "res://.import/Dead (2).png-1623c2028097fd97c8a0add20f257074.stex", "res://.import/Dead (3).png-90aa6978f2479873f1712a9ebba4fbf8.stex", "res://.import/Dead (4).png-608966496bda1862d5baa236910e9f69.stex", "res://.import/Dead (5).png-cb5561931df527a4ce75e3e283415856.stex", "res://.import/Dead (6).png-f64fd5d6e08db993e85b0a2c706846bc.stex", "res://.import/Dead (7).png-8c3d6cf82f227709fa4a57553fc29b91.stex", "res://.import/Dead (8).png-c488cdd56901b8d15388412d56187184.stex", "res://.import/Dead (9).png-c1cae33a79d2f5c6ca52f24e3b801ae3.stex", "res://.import/Dead (10).png-3ff13b91866b75c7426369dc4203b1db.stex" ]
+}
+
 [sub_resource type="Animation" id=3]
 resource_name = "player_idle"
 loop = true
 tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:texture")
+tracks/0/path = NodePath("Sprite:texture:load_path")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 ),
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ ExtResource( 1 ), ExtResource( 28 ), ExtResource( 25 ), ExtResource( 30 ), ExtResource( 23 ), ExtResource( 22 ), ExtResource( 24 ), ExtResource( 29 ), ExtResource( 27 ), ExtResource( 26 ) ]
+"values": [ "res://.import/Idle (1).png-550bf14b7cdb88164d60276727fa6a02.stex", "res://.import/Idle (2).png-ad5d602ba39186bacb9c1e600836e813.stex", "res://.import/Idle (3).png-e616d9542796888b1ee592c595dbe646.stex", "res://.import/Idle (4).png-220b7dabb1341dbf47a44240a75c2ba9.stex", "res://.import/Idle (5).png-ca6260f63d30212e9d13c6983ca00a4f.stex", "res://.import/Idle (6).png-4bf2ce4a52d47b79936e41620d7bbea9.stex", "res://.import/Idle (7).png-caea3f745d430e078a1e1ff4ce49ac3d.stex", "res://.import/Idle (8).png-08ec60fc03feca50f7429b36d1a47521.stex", "res://.import/Idle (9).png-a8d7cbf30998ec742b6239b3bd8af69a.stex", "res://.import/Idle (10).png-ba21f4f86c7e63032d49629af7e638cd.stex" ]
 }
 
-[sub_resource type="Animation" id=4]
-resource_name = "ataque"
-loop = true
+[sub_resource type="Animation" id=22]
+resource_name = "player_jump"
 tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:texture")
+tracks/0/path = NodePath("Sprite:texture:load_path")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 ),
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ ExtResource( 3 ), ExtResource( 2 ), ExtResource( 11 ), ExtResource( 9 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 10 ) ]
+"values": [ "res://.import/Jump (1).png-4305c49127c4acefc4a6fca00a722711.stex", "res://.import/Jump (2).png-409e948eab37c26e9d80ebe64c8cfadb.stex", "res://.import/JumpAttack (3).png-33ee7d63dcb33ae71e64bc895aff6a22.stex", "res://.import/JumpAttack (4).png-5900396166565df19917ff14dffbbfb2.stex", "res://.import/Jump (5).png-4c08be49c7e250ea337ca4690d744028.stex", "res://.import/Jump (6).png-15b4515b91c4ddf975d495a955bf57e1.stex", "res://.import/Jump (7).png-902af0a33be5c925b3f9cfc4789ef73a.stex", "res://.import/Jump (8).png-c6beb7f4f34039984597153a8babd5d9.stex", "res://.import/Jump (9).png-05108d430bb5015b9a0c23b55129078d.stex", "res://.import/Jump (10).png-6ed8c9e01b46f4f5711173a24fb94100.stex" ]
 }
 
-[sub_resource type="Animation" id=5]
-resource_name = "muerto"
-loop = true
+[sub_resource type="Animation" id=23]
+resource_name = "player_jump_attack"
 tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:texture")
+tracks/0/path = NodePath("Sprite:texture:load_path")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 ),
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
-"update": 0,
-"values": [ ExtResource( 13 ), ExtResource( 12 ), ExtResource( 20 ), ExtResource( 16 ), ExtResource( 15 ), ExtResource( 17 ), ExtResource( 14 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 21 ) ]
+"update": 1,
+"values": [ "res://.import/JumpAttack (1).png-37cbf1887cbc62798f634222c3cca268.stex", "res://.import/JumpAttack (2).png-8422222839b916c36fbd6ef1c0ce403e.stex", "res://.import/JumpAttack (3).png-33ee7d63dcb33ae71e64bc895aff6a22.stex", "res://.import/JumpAttack (4).png-5900396166565df19917ff14dffbbfb2.stex", "res://.import/JumpAttack (5).png-99cb198422d0b3bef094291f71c96544.stex", "res://.import/JumpAttack (6).png-979bc351c1859f0c6b2aa7e227efad40.stex", "res://.import/JumpAttack (7).png-a3a058c6df3a73e5b60ef2259459a157.stex", "res://.import/JumpAttack (8).png-47d050fcac8552ad92bfb3d79ea4339e.stex", "res://.import/JumpAttack (9).png-5d77fa0fd6e9cff3d211117233ba9c34.stex", "res://.import/JumpAttack (10).png-b0dc1ae50fc07fca6c5983e69829ef5b.stex" ]
 }
 
 [sub_resource type="Animation" id=6]
-resource_name = "saltar"
+resource_name = "player_run"
 loop = true
 tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:texture")
+tracks/0/path = NodePath("Sprite:texture:load_path")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 ),
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ ExtResource( 34 ), ExtResource( 33 ), ExtResource( 37 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 41 ), ExtResource( 45 ), ExtResource( 46 ) ]
+"values": [ "res://.import/Run (1).png-c41d0da63a876daaaa64a5b349d3a0e7.stex", "res://.import/Run (2).png-97fcd1fcb6104b7f489c759504e9751f.stex", "res://.import/Run (3).png-620445428732f64dde6041fd3e74e9fa.stex", "res://.import/Run (4).png-6828d21f450bbb23edf466292bed5da7.stex", "res://.import/Run (5).png-009c3e271831c55942988e01bff3c8d2.stex", "res://.import/Run (6).png-b97830381245c4d56aa49d991af6304a.stex", "res://.import/Run (7).png-abfc8494614c89c124062d3b487f89a6.stex", "res://.import/Run (8).png-ef1ab8847cee7975655d9ae468e948f7.stex", "res://.import/Run (9).png-5fdf8a6849f8097760215e0567a2e7fb.stex", "res://.import/Run (10).png-206d4ce4f7c9b919536460640f8bfb9d.stex" ]
 }
 
-[sub_resource type="Animation" id=7]
-resource_name = "saltaAtaque"
+[sub_resource type="Animation" id=18]
+resource_name = "player_walk"
 loop = true
 tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:texture")
+tracks/0/path = NodePath("Sprite:texture:load_path")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 ),
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ ExtResource( 44 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 42 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 38 ), ExtResource( 49 ), ExtResource( 43 ), ExtResource( 40 ) ]
+"values": [ "res://.import/Walk (1).png-a08517e643aec550ba7ae7a07e764fff.stex", "res://.import/Walk (2).png-63dbb15243cabe46930301d5239da57c.stex", "res://.import/Walk (3).png-f28192249ae5bfcee502e4d21e86c681.stex", "res://.import/Walk (4).png-11f182e2651f0a6ab736a72952f6b902.stex", "res://.import/Walk (5).png-2e3fa52adc46aea8cca36335ff23cbb7.stex", "res://.import/Walk (6).png-5786fb4cf1d927bee4013e5c9693743d.stex", "res://.import/Walk (7).png-ef5e019db6ef6a6dd63532211092e06e.stex", "res://.import/Walk (8).png-2fae5c7731b476c3b4133928249b7400.stex", "res://.import/Walk (9).png-67b3e00bffef51acca2fcd7db0ed037c.stex", "res://.import/Walk (10).png-90b48044c5a2e3255e9976356c8d0919.stex" ]
 }
 
-[sub_resource type="Animation" id=8]
-resource_name = "corre"
-loop = true
-tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
-"update": 1,
-"values": [ ExtResource( 54 ), ExtResource( 51 ), ExtResource( 53 ), ExtResource( 52 ), ExtResource( 57 ), ExtResource( 55 ), ExtResource( 59 ), ExtResource( 56 ), ExtResource( 58 ), ExtResource( 60 ) ]
-}
+[sub_resource type="AnimationNodeAnimation" id=7]
+animation = "player_attack"
 
-[sub_resource type="Animation" id=9]
-resource_name = "camina"
-loop = true
-tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
-"update": 1,
-"values": [ ExtResource( 65 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 70 ), ExtResource( 69 ), ExtResource( 66 ), ExtResource( 63 ), ExtResource( 67 ), ExtResource( 64 ), ExtResource( 68 ) ]
-}
+[sub_resource type="AnimationNodeAnimation" id=8]
+animation = "player_death"
+
+[sub_resource type="AnimationNodeAnimation" id=9]
+animation = "player_idle"
+
+[sub_resource type="AnimationNodeAnimation" id=24]
+animation = "player_jump"
+
+[sub_resource type="AnimationNodeAnimation" id=28]
+animation = "player_jump_attack"
+
+[sub_resource type="AnimationNodeAnimation" id=10]
+animation = "player_run"
+
+[sub_resource type="AnimationNodeAnimation" id=19]
+animation = "player_walk"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=11]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=12]
+switch_mode = 2
+auto_advance = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=13]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=14]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=15]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=20]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=25]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=26]
+switch_mode = 2
+auto_advance = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=27]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=31]
+switch_mode = 2
+auto_advance = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=32]
+switch_mode = 1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=33]
+switch_mode = 1
+auto_advance = true
+
+[sub_resource type="AnimationNodeStateMachine" id=16]
+states/player_attack/node = SubResource( 7 )
+states/player_attack/position = Vector2( 190, -165 )
+states/player_death/node = SubResource( 8 )
+states/player_death/position = Vector2( 141, 46 )
+states/player_idle/node = SubResource( 9 )
+states/player_idle/position = Vector2( -121, -152 )
+states/player_jump/node = SubResource( 24 )
+states/player_jump/position = Vector2( -178.462, -287.46 )
+states/player_jump_attack/node = SubResource( 28 )
+states/player_jump_attack/position = Vector2( 42.8666, -297.46 )
+states/player_run/node = SubResource( 10 )
+states/player_run/position = Vector2( -188, 37 )
+states/player_walk/node = SubResource( 19 )
+states/player_walk/position = Vector2( -452.033, -152 )
+transitions = [ "player_idle", "player_attack", SubResource( 11 ), "player_attack", "player_idle", SubResource( 12 ), "player_idle", "player_death", SubResource( 13 ), "player_idle", "player_run", SubResource( 14 ), "player_run", "player_idle", SubResource( 15 ), "player_idle", "player_walk", SubResource( 20 ), "player_idle", "player_jump", SubResource( 25 ), "player_jump", "player_idle", SubResource( 26 ), "player_walk", "player_idle", SubResource( 27 ), "player_jump_attack", "player_idle", SubResource( 31 ), "player_jump", "player_attack", SubResource( 32 ), "player_attack", "player_jump_attack", SubResource( 33 ) ]
+start_node = "player_idle"
+graph_offset = Vector2( -842.133, -340.346 )
+
+[sub_resource type="AnimationNodeStateMachinePlayback" id=17]
 
 [node name="Player" type="KinematicBody2D"]
+position = Vector2( 507, 275 )
+scale = Vector2( 0.2, 0.2 )
+script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
 scale = Vector2( 0.2, 0.2 )
-texture = ExtResource( 1 )
+texture = ExtResource( 15 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -5, 8 )
+position = Vector2( 75, 70 )
 shape = SubResource( 1 )
 
-[node name="jugadorStandBy" type="AnimationPlayer" parent="."]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/RESET = SubResource( 2 )
+anims/player_attack = SubResource( 4 )
+anims/player_death = SubResource( 5 )
 anims/player_idle = SubResource( 3 )
+anims/player_jump = SubResource( 22 )
+anims/player_jump_attack = SubResource( 23 )
+anims/player_run = SubResource( 6 )
+anims/player_walk = SubResource( 18 )
 
-[node name="JugadorAtaque" type="AnimationPlayer" parent="."]
-anims/ataque = SubResource( 4 )
-
-[node name="jugadorMuerto" type="AnimationPlayer" parent="."]
-anims/muerto = SubResource( 5 )
-
-[node name="JugadorSalta" type="AnimationPlayer" parent="."]
-anims/saltar = SubResource( 6 )
-
-[node name="JugadorSaltaAtaque" type="AnimationPlayer" parent="."]
-anims/saltaAtaque = SubResource( 7 )
-
-[node name="JugadorCorre" type="AnimationPlayer" parent="."]
-anims/corre = SubResource( 8 )
-
-[node name="JugadorCamina" type="AnimationPlayer" parent="."]
-anims/camina = SubResource( 9 )
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource( 16 )
+anim_player = NodePath("../AnimationPlayer")
+active = true
+parameters/playback = SubResource( 17 )
